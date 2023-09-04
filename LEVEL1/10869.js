@@ -1,5 +1,12 @@
-// input example
-// 3 2
+/**
+ * input example
+ * 7 3 -> 
+ * 10
+ * 4
+ * 21
+ * 2
+ * 1
+ */
 
 const fs = require('fs')
 // let input = fs.readFileSync('./input.txt').toString()
@@ -10,8 +17,11 @@ const inputA = +input[0]
 const inputB = +input[1]
 
 function solution(A, B) {
-  const sum = A-B
-  console.log(sum);
+  console.log(A+B)
+  console.log(A-B)
+  console.log(A*B)
+  console.log(Math.floor(A/B))
+  console.log(A%B)
 }
 
 solution(inputA, inputB)
