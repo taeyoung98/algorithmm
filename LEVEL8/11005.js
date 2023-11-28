@@ -1,3 +1,6 @@
+// input example
+// 60466175 36 -> ZZZZZ 
+
 const fs = require('fs')
 const input = fs.readFileSync('./input.txt').toString().trim().split(' ').map(v => +v)
 const [N, B] = input
